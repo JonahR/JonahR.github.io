@@ -1,0 +1,98 @@
+
+
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+}
+
+/* Keep */
+h2{
+    letter-spacing: 10px; 
+    font-size: 20px;
+    color: #111;
+}
+
+h4{
+    color: #111;
+    font-weight: 600;
+    padding: 10px;
+}
+h5{
+    padding: 10px;  
+}
+
+.container-fluid {
+    padding: 150px 50px;
+}
+
+
+.col-sm-6, .col-sm-3{
+    padding: 20px;
+}
+
+.col-md-4{
+    padding: 50px 0px;
+}
+
+
+
+.bg-white{
+    background-color: #fff;
+}
+
+.side-project:hover{
+    opacity: 0.4;
+}
+
+
+/* header */
+header{
+    /* text edits */
+    color: white;
+
+    /* image edits */
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+     url("Images/background1.JPG") ;
+    
+    /* Cover whole screen */
+     height: 100vh;
+     background-size: cover;
+     
+     /* center text vertically and horizontally */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;  
+}
+
+#bio{
+    font-size: 14px;
+    line-height: 1.9em;
+    letter-spacing: .07em;
+    font-weight: 400;
+    text-align: left;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+/* mobile edits */
+
+@media screen and (max-width: 768px) {
+    html {
+        text-align: center;
+    }
+    
+    .container-fluid{
+        padding: 50px 25px;
+    }
+        
+    
+    
+}
+
